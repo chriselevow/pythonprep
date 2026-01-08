@@ -47,10 +47,24 @@ View the HTML files directly in your browser for interactive learning experience
 
 ## 🚀 How to Use
 
-1. **Clone this repository**
-2. **Open HTML files** in your browser for interactive guides
-3. **Read Markdown files** for detailed explanations
-4. **Practice** with the question papers
+1. **Visit the live site** at [GitHub Pages](https://chriselevow.github.io/pythonprep/)
+2. **Clone this repository** for offline access
+3. **Open HTML files** in your browser for interactive guides
+4. **Read Markdown files** for detailed explanations
+5. **Practice** with the question papers
+
+---
+
+## 🚢 Deployment
+
+This repository is automatically deployed to GitHub Pages using GitHub Actions. Every push to the `main` branch triggers a deployment workflow that publishes the site.
+
+### Deployment Configuration
+
+- **Workflow**: `.github/workflows/deploy.yml`
+- **Trigger**: Automatic on push to `main` branch
+- **Platform**: GitHub Pages
+- **Status**: [![Deploy to GitHub Pages](https://github.com/chriselevow/pythonprep/actions/workflows/deploy.yml/badge.svg)](https://github.com/chriselevow/pythonprep/actions/workflows/deploy.yml)
 
 ---
 
